@@ -1,0 +1,8 @@
+#cloud-config
+password: ubuntu
+chpasswd: { expire: False }
+ssh_pwauth: True
+timezone: Asia/Tokyo
+locale: ja_JP.utf8
+
+# vim:ft=yaml:

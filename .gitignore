@@ -6,4 +6,7 @@
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.log
 
+### sasaplus1/box
 
+/qemu/ubuntu-*-server-cloudimg-*.img
+/qemu/user-data.img

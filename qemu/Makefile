@@ -11,8 +11,8 @@ all: ## output targets
 
 .PHONY: build
 build: ## build user-data.img
-	DOCKER_BUILTKIT=1 docker build -t sasaplus1/box .
-	docker run --rm -v "$$PWD:/root" sasaplus1/box user-data.img user-data
+	DOCKER_BUILTKIT=1 docker build -t sasaplus1/box:qemu .
+	docker run --rm -v "$$PWD:/root" sasaplus1/box:qemu user-data.img user-data
 
 .PHONY: download
 download: img := https://cloud-images.ubuntu.com/releases/focal/release-20200916/ubuntu-20.04-server-cloudimg-amd64.img

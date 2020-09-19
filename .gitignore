@@ -10,3 +10,5 @@
 
 /qemu/ubuntu-*-server-cloudimg-*.img
 /qemu/user-data.img
+
+/vagrant/user-data.iso
